@@ -27,9 +27,8 @@
     padding: 15px;
     border-radius: 10px;
 }
-
-li a:hover{
-    background-color: white;
+.Navbar li a:hover{
+    background-color: #ffaf24;
     transition: 0.5s;
 }
 
@@ -40,8 +39,28 @@ li a:hover{
 /* Footer */
 
 footer{
+    padding: 10px;
     background-color: #400071;
+    border-top: 2px solid #ffaf24;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: white;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-inline: 20px;
 }
 
 
