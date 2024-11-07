@@ -22,13 +22,13 @@
 }
 
 .textos-banner h1{
-  color: #ffaf24;
+  color:#400071 ;
   font-size: 100px;
   font-weight: bolder;
 }
 
 .textos-banner h2{
-    color: white;
+    color: #ffaf24;
     font-size: 50px;
     font-weight: bolder;
 }
@@ -47,4 +47,51 @@
   50% {
     opacity: 0;
   }
+}
+
+/* Seccion inicial y final */
+.Titulo h2{
+    font-size: 35px;
+    color: #ffaf24;
+    font-family: 'Press Start 2P'
+}
+
+.Titulo-img{
+    height: 350px;
+    margin: 2%;
+}
+
+.Cont-Titulo{
+    display: flex;
+    align-items: center;
+    background-color: #4e038792;
+}
+
+.Titulo-Info{
+    text-align: start;
+}
+
+.Titulo-Info p{
+    font-size: 35px;
+    align-items: center;
+    color: white;
+}
+
+/* Seccion Centrada */
+
+.Titulo-Info-centrado{
+    text-align: center;
+    background-color:#4e038792;
+}
+
+.Titulo-Info-centrado p{
+    font-size: 35px;
+    align-items: center;
+    color: white;
+}
+
+.Titulo-Info-centrado iframe{
+    width: 90%;
+    height: 600px;
+    margin-top: 1%;
 }
