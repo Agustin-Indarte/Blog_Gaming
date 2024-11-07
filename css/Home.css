@@ -1,0 +1,50 @@
+/* Banner */
+.Banner-Home{
+    display: flex; /* hace flexible el contenedor */
+    justify-content: center; /* Centra Horizontalmente */
+    align-items: center; /* Centra Verticalmente */
+    height: 100vh; /* EL contenedor ocupa el 100% de la altura en la pantalla */
+    position: relative; /* Se usa para ajustar la posición del texto */
+}
+
+.Banner-Home img{
+   position: absolute; /* coloca la imagen de fondo */
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Cubre todo el contenedor */
+   z-index: 0; /* Coloca la imagen detras del texto */
+}
+
+
+.textos-banner{
+    text-align: center; /* Centra el texto dentro del contenedor */
+    z-index: 1; /* Sube la capa del texto para que este encima del fondo */
+}
+
+.textos-banner h1{
+  color: #ffaf24;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.textos-banner h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* Animacion */
+.textos-banner h1, 
+.textos-banner h2 {
+  font-family: 'Press Start 2P', cursive; /* Fuente retro opcional */
+  animation: smooth-blink 2s ease-in-out infinite; /* Hace que el parpadeo comience y termine de manera suave infinitamente. */
+}
+
+@keyframes smooth-blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

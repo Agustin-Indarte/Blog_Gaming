@@ -1,8 +1,11 @@
 /* Importaciones */
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Fuente retro */
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* Fuente */
 
 @import "/css/NavbarFooter.css";
+@import "/css/Home.css";
 
 /* Normalizacion de estilos */
 *{
