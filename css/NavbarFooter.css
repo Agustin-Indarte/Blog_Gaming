@@ -1,0 +1,49 @@
+/* Navbar */
+.Navbar img{
+    height: 70px;
+    margin-left: 20px;
+}
+
+.Navbar{
+    width: 100%;
+    background-color: #400071;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Navbar ul li a{
+    text-decoration: none ;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.Navbar a:hover{
+    color: #400071;
+}
+
+/* Footer */
+
+footer{
+    background-color: #400071;
+    color: white;
+}
+
+
+
+
