@@ -1,0 +1,21 @@
+/* Banner */
+.Banner-Top10{
+    display: flex; /* hace flexible el contenedor */
+    justify-content: center; /* Centra Horizontalmente */
+    align-items: center; /* Centra Verticalmente */
+    width: 100vw;
+    height: 35vh; /* EL contenedor ocupa el 100% de la altura en la pantalla */
+    position: relative; /* Se usa para ajustar la posición del texto */
+}
+
+.Banner-Top10 img{
+   position: absolute; /* coloca la imagen de fondo */
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Cubre todo el contenedor */
+   z-index: 0; /* Coloca la imagen detras del texto */
+}
+
+
+
+
