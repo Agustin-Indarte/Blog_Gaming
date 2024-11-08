@@ -1,3 +1,10 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
 /* Navbar */
 .Navbar img{
     height: 70px;
@@ -10,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
 }
 
 .Navbar ul li{

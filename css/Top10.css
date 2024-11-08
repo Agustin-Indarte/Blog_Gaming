@@ -1,9 +1,10 @@
 /* Banner */
 .Banner-Top10{
+    margin-top: 74px;
     display: flex; /* hace flexible el contenedor */
     justify-content: center; /* Centra Horizontalmente */
     align-items: center; /* Centra Verticalmente */
-    width: 100vw;
+    width: 100%;
     height: 35vh; /* EL contenedor ocupa el 100% de la altura en la pantalla */
     position: relative; /* Se usa para ajustar la posición del texto */
 }
@@ -15,6 +16,71 @@
    object-fit: cover; /* Cubre todo el contenedor */
    z-index: 0; /* Coloca la imagen detras del texto */
 }
+
+/* Seccion Cards top10 */
+.Cards{
+    background-color: #ffaf247d;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Cards h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color:#400071 ;
+    margin-top: 20px;
+}
+
+.card{
+    display: flex;
+    background-color: lightgray;
+    height: 200px;
+    width: 800px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.card img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 500px;
+    height: auto;
+}
+
+.info-card{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-card h4{
+    color: #400071;
+    font-size: 20px;
+    
+}
+
+.info-card a{
+    background-color: #400071;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.info-card a:hover{
+    background-color: #ffaf24;
+    color:#400071;
+}
+
+
+
+
 
 
 
