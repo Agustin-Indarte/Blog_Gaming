@@ -1,0 +1,83 @@
+/* Banner */
+.Banner-Reseña{
+    margin-top: 74px;
+    width: 100%;; /* EL contenedor ocupa el 100% de la altura en la pantalla */
+    background-color: #40007188;
+}
+
+.Banner-Reseña img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /* Cubre todo el contenedor */
+}
+
+/* Sección Reseñas */
+.reseñas{
+    background-color:#40007188 ;
+    padding-bottom: 50px;
+}
+
+.reseñas h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color:white ;
+    padding: 25px;
+}
+
+.cards-reseña{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.card-image-reseña{
+    width: 100%;
+}
+
+.card-image-reseña img{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.card-reseña{
+    width: 600px;
+    height: 530px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-info-reseña{
+    width: 97%;
+    padding: 10px;
+}
+
+.card-name-reseña{
+    color:#400071 ;
+}
+
+.card-info-reseña p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.card-info-reseña a{
+    text-decoration: none;
+    background-color: #400071 ;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-info-reseña a:hover{
+    background-color: #ffaf24 ;
+    color:#400071;
+}
