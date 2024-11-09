@@ -1,0 +1,33 @@
+.reseñas-info{
+    background-color: #40007188;
+    padding-inline: 50px;
+}
+
+.reseñas-info h2{
+    font-size: 35px;
+    padding-top: 20px;
+    color: #ffaf24;
+    text-align: center;
+}
+
+.info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenido h3{
+    font-size: 25px;
+    color:#400071 ;
+}
+
+.contenido p{
+    padding-top: 10px;
+    color: lightgray;
+}
+
+.contenido iframe{
+    display: block; /* Cambia a bloque para que funcione el margin auto */
+    margin: 20px auto; /* Ajusta los valores de margen a tus necesidades */
+    max-width: 100%; /* Asegura que no desborde en pantallas más pequeñas */
+  
+}
